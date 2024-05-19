@@ -1,0 +1,38 @@
+body{
+    color: green;
+    background-color: black;
+}
+
+#loki-animacao {
+    font-size: 10em;
+    display: flex;
+    gap: 5px;
+}
+
+#loki-animacao span {
+    transition: all 0.5s;
+}
+
+@font-face {
+    font-family: 'ARB 85 Poster Script JAN-39 FRE';
+    src: url('fonts/ARB-85.ttf') format('truetype');
+  }
+  
+@font-face {
+font-family: 'CloisterBlack';
+src: url('fonts/CloisterBlack.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'dameron';
+src: url('fonts/dameron.ttf') format('truetype');
+}
+
+.font-1 { font-family: 'ARB 85 Poster Script JAN-39 FRE', sans-serif; }
+.font-2 { font-family: 'CloisterBlack', sans-serif; }
+.font-3 { font-family: 'dameron', sans-serif; }
+  
+
+.normal { font-style: normal; font-weight: normal; }
+.bold { font-style: normal; font-weight: bold; }
+.italic { font-style: italic; font-weight: normal; }
